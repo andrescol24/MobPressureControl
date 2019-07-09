@@ -1,0 +1,18 @@
+#Create by xX_andrescol_Xx
+#Plate's config
+
+#plates configured
+plates:
+  #plate's name
+  plateName:
+    #location
+    x: x
+    y: y
+    z: z
+    world: worldName
+    #permission on pressure it
+    permission: pressureControl.pressure.plateName
+    #command to execute on pressure it
+    commands:
+        - prec info
+    onlyPlayer: true

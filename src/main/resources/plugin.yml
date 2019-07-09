@@ -1,0 +1,22 @@
+name: PressureControl
+author: Andres F. Morales Gonzalez
+main: co.andrescol.PressureControl.PressureControl
+version: ${project.version}
+description: plugin that control what presses a plate
+
+commands:
+    PressureControl:
+        description: command to access presure events options of object on right hand
+        aliases: prec
+
+permissions:
+    pressurecontrol.*:
+        description: gives all PressureControl permissions
+    pressurecontrol.pressurecontrol:
+        description: allow to view all PressureControl commands
+    pressurecontrol.reload:
+        description: allow to use pressurecontrol reload command
+    pressurecontrol.put:
+        description: allow to put a pressurePlate with pressurecontrol
+    pressurecontrol.list:
+        description: allow to view pressurePlates list'

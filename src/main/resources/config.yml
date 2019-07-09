@@ -1,0 +1,4 @@
+#Configuration PressureControl plugin
+
+#wether or not see the info of a plate on right click
+infoOnClik: true
